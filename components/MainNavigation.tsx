@@ -13,8 +13,6 @@ export default function MainNavigation() {
   };
   return (
     <div className="bg-blue">
-      <h1>{currentPath};</h1>
-
       <div className="wrapper flex justify-between items-center">
         <Link href="/">
           <Logo className="w-13 py-6 text-white"></Logo>
