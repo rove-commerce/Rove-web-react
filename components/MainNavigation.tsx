@@ -86,19 +86,19 @@ export default function MainNavigation() {
             <div className="wrapper pt-10">
               <ul className="text-white text-24 font-bold uppercase flex flex-col items-center">
                 <li>
-                  <Link href="/">Startsida</Link>
+                  <Link onClick={mobileMenuClick} href="/">Startsida</Link>
                 </li>
                 <li className="mt-10">
-                  <Link href="/tjanster">Tjänster</Link>
+                  <Link onClick={mobileMenuClick} href="/tjanster">Tjänster</Link>
                 </li>
                 <li className="mt-10">
-                  <Link href="/kunder">Kunder</Link>
+                  <Link onClick={mobileMenuClick} href="/kunder">Kunder</Link>
                 </li>
                 <li className="mt-10">
-                  <Link href="/om-rove">Om Rove</Link>
+                  <Link onClick={mobileMenuClick} href="/om-rove">Om Rove</Link>
                 </li>
                 <li className="mt-10">
-                  <Link href="/jobb">Jobb</Link>
+                  <Link onClick={mobileMenuClick} href="/jobb">Jobb</Link>
                 </li>
               </ul>
             </div>
