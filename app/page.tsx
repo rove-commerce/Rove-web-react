@@ -1,6 +1,6 @@
 "use client";
-import HelloWorld from './hello.mdx';
+import Jumbotron from "../components/Jumbotron";
 
 export default function Home() {
-  return <HelloWorld />
+  return <Jumbotron />
 }
