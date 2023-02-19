@@ -1,6 +1,6 @@
-export default function IconChevronDown() {
+export default function IconChevronDown({ className } : {className: string } ) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 9">
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 9">
       <path
         d="M1 1l6 6 6-6"
         stroke="currentColor"

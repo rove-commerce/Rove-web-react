@@ -71,7 +71,7 @@ export default function Home() {
               </ExpandableText>
 
               {/* B2B2C */}
-              <ExpandableText tilte="B2B2C">
+              <ExpandableText title="B2B2C">
                 <p>
                   Företag med konsumentprodukter som säljs via återförsäljarled
                   står inför många utmaningar när man behöver kommunicera både
@@ -97,7 +97,7 @@ export default function Home() {
               </ExpandableText>
 
               {/* Mjukvarubolag / SaaS */}
-              <ExpandableText text="Mjukvarubolag / SaaS">
+              <ExpandableText title="Mjukvarubolag / SaaS">
                 <p>
                   Mjukvarubolag och SaaS-tjänster riktade till företag behöver
                   skalbarhet i hela verksamheten och en stark marknadsfunktion
