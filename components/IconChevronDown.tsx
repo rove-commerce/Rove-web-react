@@ -4,9 +4,9 @@ export default function IconChevronDown() {
       <path
         d="M1 1l6 6 6-6"
         stroke="currentColor"
-        stroke-width="2"
+        strokeWidth="2"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       />
     </svg>
   );
