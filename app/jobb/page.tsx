@@ -9,7 +9,7 @@ export default function Home() {
       <div className="bg-white py-20">
         <div className="wrapper">
           <div className="inner-wrapper">
-            <div className="wysiwyg max-width: 687px">
+            <div className="wysiwyg" style={{maxWidth: "687px"}}>
               <Content />
             </div>
           </div>
