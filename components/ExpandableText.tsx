@@ -14,11 +14,7 @@ export default function ExpandableText({
   const [expanded, setExpanded] = useState(false);
   const toggleExpand = () => {
     setExpanded(!expanded);
-    /*
-		this.$refs.expand.classList.toggle("active");
-				this.$refs.chevron.$el.classList.toggle("expanded");
-				  */
-  };
+   };
   return (
     <>
       <div className="border-b border-blue-transparent">
