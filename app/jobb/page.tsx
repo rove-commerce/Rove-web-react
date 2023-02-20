@@ -1,5 +1,6 @@
 "use client";
 import Content from "./jobb.mdx";
+import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <ContactForm name="bli-en-rover-form" company={false}>Vill du bli en Rover?</ContactForm>
     </>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 import Content from "./om-rove.mdx";
+import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <ContactForm name="om-rove-form"/>
     </>
   );
 }

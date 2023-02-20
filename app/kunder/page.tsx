@@ -1,4 +1,5 @@
 import PageHeader from "../../components/PageHeader";
+import ContactForm from "../../components/ContactForm";
 import ExpandableText from "../../components/ExpandableText";
 
 export default function Home() {
@@ -109,6 +110,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <ContactForm name="kunder-form" />
     </>
   );
 }
