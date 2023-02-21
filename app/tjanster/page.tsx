@@ -70,7 +70,7 @@ export default function Home() {
                 Vi implementerar er e-handelslösning utifrån era affärsmål -
                 design, systemutveckling, integrationer, utrullning, utbildning,
                 test & kvalitetssäkring, interna processer och organisation. Vi
-                arbetar med Litium Commerce Cloud (<nobr>e-handel</nobr>, PIM
+                arbetar med Litium Commerce Cloud <span style={{whiteSpace: 'nowrap'}}>e-handel</span>, PIM
                 och CMS) och dess paketering Litium Accelerator.
               </p>
             </div>

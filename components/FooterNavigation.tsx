@@ -36,7 +36,7 @@ export default function FooterNavigation() {
           </Link>
         </div>
         <div className="text-blue text-12 mt-6 tablet-lg:mt-0">
-          <span>© 2023 Rove Commerce Advisory AB</span>
+          <span>© {new Date().getFullYear()}  Rove Commerce Advisory AB</span>
         </div>
       </div>
     </div>
