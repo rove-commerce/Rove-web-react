@@ -14,7 +14,7 @@ export default function BlogPostBody({
       <div className="inner-wrapper text-center pt-12">
         {/* Författare */}
         <span className="block text-16 text-black font-bold mb-3">
-          {author}"
+          {author}
         </span>
 
         {/* Datum */}
