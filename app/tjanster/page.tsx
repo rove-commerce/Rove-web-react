@@ -1,5 +1,10 @@
 "use client";
+
+import Image from "next/image";
 import ContactForm from "../../components/ContactForm";
+import MethodsLogo from "../../public/Rove-RGB-Logotyp_Methods-1-Vit.png";
+import BuildLogo from "../../public//Rove-RGB-Logotyp_Build-Blue.png";
+import AdvisoryLogo from "../../public/Rove-RGB-Logotyp_Advisory-1-Bla.png";
 
 export default function Home() {
   return (
@@ -9,7 +14,7 @@ export default function Home() {
         <div className="wrapper py-16">
           <div className="inner-wrapper">
             <div className="w-3/4 laptop:w-2/5 mb-8">
-              <img src="/Rove-RGB-Logotyp_Methods-1-Vit.png" />
+              <Image alt="Rove Methods" src={MethodsLogo} />
             </div>
             <div className="text-white text-24 mb-8">
               <p>
@@ -53,7 +58,7 @@ export default function Home() {
         <div className="wrapper py-16">
           <div className="inner-wrapper">
             <div className="w-3/5 laptop:w-2/6 mb-8">
-              <img src="/Rove-RGB-Logotyp_Build-Blue.png" />
+              <Image alt="Rove Build" src={BuildLogo} />
             </div>
             <div className="text-black text-24 mb-8">
               <p>
@@ -123,7 +128,7 @@ export default function Home() {
         <div className="wrapper py-16">
           <div className="inner-wrapper">
             <div className="w-3/4 laptop:w-2/5 mb-8">
-              <img src="/Rove-RGB-Logotyp_Advisory-1-Bla.png" />
+              <Image alt="Rove Advisory" src={AdvisoryLogo} />
             </div>
             <div className="text-black text-24 mb-8">
               <p>

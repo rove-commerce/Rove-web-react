@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import ReadLink from "./ReadLink";
 
 export default function BlogSummary() {
@@ -23,7 +22,7 @@ export default function BlogSummary() {
             {/* 3 blog posts */}
             {/* First post */}
             <div className="flex flex-col laptop:flex-row pt-6">
-              <div className="laptop:w-1/3 py-6 laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue">
+              <div className="laptop:w-1/3 py-6 laptop:px-4 border-t laptop:border-l laptop:border-t-0 border-blue">
                 <span className="block text-blue text-10 uppercase mb-2">
                   Blogg
                 </span>
@@ -37,7 +36,7 @@ export default function BlogSummary() {
               </div>
 
               {/* Second post */}
-              <div className="laptop:w-1/3 py-6 laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue laptop:ml-4">
+              <div className="laptop:w-1/3 py-6 laptop:px-4 border-t laptop:border-l laptop:border-t-0 border-blue laptop:ml-4">
                 <span className="block text-blue text-10 uppercase mb-2">
                   Blogg
                 </span>
@@ -50,7 +49,7 @@ export default function BlogSummary() {
               </div>
 
               {/* Third post */}
-              <div className="laptop:w-1/3 py-6 laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue laptop:ml-4">
+              <div className="laptop:w-1/3 py-6 laptop:px-4 border-t laptop:border-l laptop:border-t-0 border-blue laptop:ml-4">
                 <span className="block text-blue text-10 uppercase mb-2">
                   Blogg
                 </span>

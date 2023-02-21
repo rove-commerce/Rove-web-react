@@ -1,11 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import BlogPostBody from "../../../components/BlogPostBody";
+import BlogImage from "../../../public/blogg/upphandla-ehandelsprojekt.jpg";
 
 export default function Home() {
   return (
       <BlogPostBody author="Henrik Lundin" title="Upphandla e-handelsprojekt">
 				<div className="tablet:w-1/2 float-right">
-					<img className="tablet:ml-4 mb-8" alt="Upphandla e-handelsprojekt" src="/blogg/upphandla-ehandelsprojekt.jpg" />
+					<Image className="tablet:ml-4 mb-8" alt="Upphandla e-handelsprojekt" src={BlogImage} />
 				</div>
 				<p className="preamble">
 					Det är knepigt att handla upp e-handelsprojekt. Eller snarare att få en lyckad leverans, ett väl fungerande partnerskap med leverantören och
