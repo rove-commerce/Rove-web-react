@@ -33,6 +33,7 @@ export default function RootLayout({
         <MainNavigation></MainNavigation>
         {children}
         <FooterNavigation />
+        <CookieConsent />
       </body>
     </html>
   );
