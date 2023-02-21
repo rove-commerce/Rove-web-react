@@ -1,7 +1,7 @@
 export default function IconChevronLeft() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10">
-      <g transform="translate(-211 -3801)" fill="none" fill-rule="evenodd">
+      <g transform="translate(-211 -3801)" fill="none" fillRule="evenodd">
         <rect
           stroke="#CDD1D4"
           x="194.5"
