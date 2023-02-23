@@ -18,18 +18,17 @@ export default function RootLayout({
       */}
       <head />
       <Script
-        src={`<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
       />
-      <Script id="google-analytics">
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());         
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
           gtag('config', '${GA_MEASUREMENT_ID}');
         `}
       </Script>
-
       <body>
         <MainNavigation></MainNavigation>
         {children}
