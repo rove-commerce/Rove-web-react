@@ -6,9 +6,7 @@ import Jumbotron from "../components/Jumbotron";
 export default function Home() {
   return (
     <>
-      <Jumbotron />
-      <BlogSummary/>
-      <ContactForm name="startpage-form" />
+      <h1>Hej</h1>
     </>
   );
 }
