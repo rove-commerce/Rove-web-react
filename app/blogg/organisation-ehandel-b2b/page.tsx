@@ -179,7 +179,7 @@ export default function Home() {
           att ta fram innehåll, exempelvis bloggposter, guider och whitepapers.
         </li>
         <li>
-          “Driva trafik”: metoder för att driva mer trafik, bl.a. "SEM" (Search
+          “Driva trafik”: metoder för att driva mer trafik, bl.a. &quot;SEM&quot; (Search
           Engine Marketing) som innefattar “SEO” för att optimera din webbplats
           för sökmotorer, så att kunder kan hitta dig när de söker efter
           lösningar eller produkter, och “SEA” för annonsering i samband med att

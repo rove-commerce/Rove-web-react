@@ -4,33 +4,30 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function CookieConsent() {
-  const [consent, setConsent] = useState(false);
+  const [showState, setshowState] = useState(true);
 
   function giveConsent() {
-    setConsent(true);
+    setshowState(false);
   }
 
-  function showCookieBar() {
-   
-    if (consent == undefined) {
-        console.log("showCookieBar: true");
-        return true;
-    }
-    console.log("showCookieBar: " + !consent);
-    return !consent;
+  function showCookieBar() : boolean {
+    return showState;
   }
+  
   return (
     <>
       {showCookieBar() && (
         <div className="bg-white p-4 fixed bottom-0 inset-x-0 border-t border-blue">
           <div className="wrapper flex justify-between items-end">
             <p className="text-14 text-black">
-              <span>Den här webbplatsen sparar cookies på din dator. Vissa cookies är
-              nödvändiga för att vår webbplats ska fungera säkert och korrekt,
-              samt för att samla in information om hur vår webbplats används.
-              Läs mer i vår </span> 
+              <span>
+                Den här webbplatsen sparar cookies på din dator. Vissa cookies
+                är nödvändiga för att vår webbplats ska fungera säkert och
+                korrekt, samt för att samla in information om hur vår webbplats
+                används. Läs mer i vår{" "}
+              </span>
               <Link href="/privacy/" className="underline">
-                  Cookies & Integritetspolicy
+                Cookies & Integritetspolicy
               </Link>
               .
             </p>
