@@ -30,10 +30,10 @@ export default function RootLayout({
         `}
       </Script>
       <body>
-        {/* <MainNavigation></MainNavigation>*/}
+        <MainNavigation></MainNavigation>
         {children}
-        {/* <FooterNavigation />*/}
-        {/* <CookieConsent /> */}
+        <FooterNavigation />
+        <CookieConsent />
       </body>
     </html>
   );
