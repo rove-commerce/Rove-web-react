@@ -28,8 +28,8 @@ export default function Home() {
 							</p>
 							<h3>Vårt varför - ständig utveckling</h3>
 							<p>
-								Vi vill ständigt bli bättre. Att utvecklas och lära är motiverande. Det är vårt "Varför”. Det gör att vi kan ge våra kunder ett
-								större värde.
+								Vi vill ständigt bli bättre. Att utvecklas och lära är motiverande. Det är vårt &quot;Varför&quot;. Det gör att vi kan ge våra
+								kunder ett större värde.
 							</p>
 
 							<h3>Kultur & värderingar</h3>

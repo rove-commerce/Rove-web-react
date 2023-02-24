@@ -17,7 +17,7 @@ export default function Home() {
 					<div className="inner-wrapper">
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<h3>Rove</h3>
-							<p>"​a vigorous and purposeful journey without ever reaching your destination".</p>
+							<p>&quot;​a vigorous and purposeful journey without ever reaching your destination&quot;.</p>
 							<h3>Så arbetar vi</h3>
 							<p>
 								Vi utgår alltid från affärsbehoven och användarupplevelsen. Utifrån tydliga affärsmål och användarbehov tittar vi på
