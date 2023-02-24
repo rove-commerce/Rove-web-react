@@ -3,6 +3,18 @@ import MainNavigation from "../components/MainNavigation";
 import FooterNavigation from "../components/FooterNavigation";
 import CookieBar from "../components/CookieBar";
 import Script from "next/script";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    default: "Rove | E-handel, MarTech och digital marknadsföring",
+    template: '%s | rove.se | Sverige',
+  },
+  keywords: ["Upphandling", "Projektledning", "Rådgivning", "Förstudie", "Digital handel", "E-handel", "PIM", "Digital marknadsföring", "Kundresan", "Köpresan", "Litium", "HubSpot"],
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 export default function RootLayout({
   children,
@@ -12,11 +24,6 @@ export default function RootLayout({
   const GA_MEASUREMENT_ID = "G-GW944XXWFN";
   return (
     <html lang="sv">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         strategy="afterInteractive"

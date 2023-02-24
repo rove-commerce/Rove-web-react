@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import ContactForm from "../../components/ContactForm";
 import MethodsLogo from "../../public/Rove-RGB-Logotyp_Methods-1-Vit.png";

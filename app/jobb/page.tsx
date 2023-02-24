@@ -1,4 +1,3 @@
-"use client";
 import Content from "./jobb.mdx";
 import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";

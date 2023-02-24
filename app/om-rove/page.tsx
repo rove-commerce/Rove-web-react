@@ -1,4 +1,3 @@
-"use client";
 import Content from "./om-rove.mdx";
 import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";

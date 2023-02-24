@@ -1,9 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 import BlogPostBody from "../../../components/BlogPostBody";
-import BlogImage1 from "../../../public/blogg/Organisation-ehandel-b2b-1.png";
-import BlogImage2 from "../../../public/blogg/Organisation-ehandel-b2b-2.png";
-import BlogImage3 from "../../../public/blogg/Organisation-ehandel-b2b-3.png";
 
 export default function Home() {
   return (
