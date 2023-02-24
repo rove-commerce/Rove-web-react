@@ -1,6 +1,12 @@
+import type { Metadata } from 'next';
 import PageHeader from "../../components/PageHeader";
 import ContactForm from "../../components/ContactForm";
 import ExpandableText from "../../components/ExpandableText";
+
+export const metadata: Metadata = {
+  title: "Kunder",
+  description: "B2B, B2C, tillverkande bolag, varumärken, distributörer, grossister, B2B2C, mjukvarubolag, SaaS",
+}
 
 export default function Home() {
   return (

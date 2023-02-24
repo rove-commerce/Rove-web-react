@@ -1,9 +1,15 @@
+import type { Metadata } from 'next';
 import Image from "next/image";
 import Link from "next/link";
 import BlogPostBody from "../../../components/BlogPostBody";
 import BlogImage1 from "../../../public/blogg/Organisation-ehandel-b2b-1.png";
 import BlogImage2 from "../../../public/blogg/Organisation-ehandel-b2b-2.png";
 import BlogImage3 from "../../../public/blogg/Organisation-ehandel-b2b-3.png";
+
+export const metadata: Metadata = {
+  title: "Blogg | Vilken organisation behövs för en B2B e-handel? Del 2.",
+  description: "Vilken organisation behövs för en B2B e-handel? I del 2 går vi vidare och konkretiserar vem som gör vad genom att titta på 3 exempelorganisationer.",
+}
 
 export default function Home() {
   return (

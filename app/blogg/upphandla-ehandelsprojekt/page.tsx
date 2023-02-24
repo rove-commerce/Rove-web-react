@@ -1,7 +1,13 @@
+import type { Metadata } from 'next';
 import Link from "next/link";
 import Image from "next/image";
 import BlogPostBody from "../../../components/BlogPostBody";
 import BlogImage from "../../../public/blogg/upphandla-ehandelsprojekt.jpg";
+
+export const metadata: Metadata = {
+  title: "Blogg | Upphandla e-handelsprojekt",
+  description: "Ska du upphandla ett e-handelsprojekt? I den här artikeln går vi igenom problem-topplistan och hur du bör göra istället.",
+}
 
 export default function Home() {
   return (

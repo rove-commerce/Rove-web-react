@@ -1,5 +1,11 @@
+import type { Metadata } from 'next';
 import Link from "next/link";
 import BlogPostBody from "../../../components/BlogPostBody";
+
+export const metadata: Metadata = {
+  title: "Blogg | Vilken organisation behövs för en B2B e-handel? Del 1.",
+  description: "I den här serien om 2 delar tittar vi på hur man bör organisera sig och vilka processer som behövs för en framgångsrik B2B e-handel.",
+}
 
 export default function Home() {
   return (

@@ -1,6 +1,12 @@
+import type { Metadata } from 'next';
 import Image from "next/image";
 import BlogPostBody from "../../../components/BlogPostBody";
 import BlogImage from "../../../public/blogg/PunchOut-ehandel.jpg";
+
+export const metadata: Metadata = {
+  title: "Blogg | PunchOut e-handel",
+  description: "PunchOut e-handel - öppna en ny försäljningskanal till era kunder.",
+}
 
 export default function Home() {
   return (

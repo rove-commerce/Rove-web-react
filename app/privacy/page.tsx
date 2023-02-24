@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import PageHeader from "../../components/PageHeader";
+
+export const metadata: Metadata = {
+  title: "Cookies och Integritetspolicy",
+  description: "Privacy, Cookies och Integritetspolicy",
+}
 
 export default function Home() {
   return (

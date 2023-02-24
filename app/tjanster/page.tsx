@@ -1,8 +1,14 @@
+import type { Metadata } from 'next';
 import Image from "next/image";
 import ContactForm from "../../components/ContactForm";
 import MethodsLogo from "../../public/Rove-RGB-Logotyp_Methods-1-Vit.png";
 import BuildLogo from "../../public//Rove-RGB-Logotyp_Build-Blue.png";
 import AdvisoryLogo from "../../public/Rove-RGB-Logotyp_Advisory-1-Bla.png";
+
+export const metadata: Metadata = {
+  title: "Tjänster",
+  description: "Tjänster, Upphandling, projektledning, rådgivning, beslutsunderlag, förstudie, införandestöd, styrgrupp, digital handel, e-handel, PIM, digital marknadsföring, kundresan, köpresan, Litium, HubSpot",
+}
 
 export default function Home() {
   return (
