@@ -15,31 +15,15 @@ export default function CookieBar() {
     {
       setAccept(true);
     }
-    console.log("useEffect, cookies.cookieAccept: " + cookies.cookieAccept);
-    console.log("useEffect, accept: " + accept);
   }, [])
 
   function giveConsent() {
-    console.log("giveConsent() ");
     setCookie("cookieAccept", true);
     setAccept(true);
   }
 
   function showCookieBar(): boolean {
-    console.log("showCookieBar(), cookies.cookieAccept: " + cookies.cookieAccept);
-    console.log("showCookieBar(), accept: " + accept);
     return !accept;
-    /*
-    if (cookies.cookieAccept == undefined) {
-      return true;
-    }
-    return false;
-    */
-    /*
-    let show = cookies.cookieAccept === undefined ? true : false;
-    console.log("showCookieBar(), cookies.showBar: " + cookies.showBar);
-    console.log("showCookieBar(), show: " + show);
-    return show;*/
   }
 
   return (
