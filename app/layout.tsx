@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: "Rove | E-handel, MarTech och digital marknadsföring",
+    default: "Rove | E-handel, martech och digital marknadsföring",
     template: '%s | rove.se | Sverige',
   },
   keywords: ["Upphandling", "Projektledning", "Rådgivning", "Förstudie", "Digital handel", "E-handel", "PIM", "Digital marknadsföring", "Kundresan", "Köpresan", "Litium", "HubSpot"],

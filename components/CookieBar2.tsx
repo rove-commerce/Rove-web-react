@@ -1,7 +1,6 @@
 "use client";
 
-import { useCookies } from "react-cookie";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function CookieBar2() {
