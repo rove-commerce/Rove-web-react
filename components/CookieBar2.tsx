@@ -4,41 +4,17 @@ import { useCookies } from "react-cookie";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-export default function CookieBar() {
-  const [cookies, setCookie] = useCookies(["cookieAccept"]);
-  //const [accept, setAccept] = useState(cookies.cookieAccept);
+export default function CookieBar2() {
+  const [accept, setAccept] = useState(false);
 
   function giveConsent() {
-    setCookie("cookieAccept", true);
-    //setAccept(true);
+    setAccept(true);
   }
 
   function showCookieBar(): boolean {
-    if (cookies.cookieAccept === undefined) {
-      console.log("Cookie does not exist");
-      return true;
-    }
-    console.log("Cookie exists");
-    return false;
+    return !accept;
   }
-  if (showCookieBar()) {
-    return (
-      <div className="bg-white p-4 fixed bottom-0 inset-x-0 border-t border-blue">
-        <div className="wrapper flex justify-between items-end">
-          <h3>showCookieBar true</h3>
-        </div>
-      </div>
-    );
-  } else {
-    return (
-    <div className="bg-white p-4 fixed bottom-0 inset-x-0 border-t border-blue">
-        <div className="wrapper flex justify-between items-end">
-          <h3>showCookieBar false</h3>
-        </div>
-      </div>
-    );
-  }
-  /*
+  
   if (showCookieBar()) {
     return (
       <div className="bg-white p-4 fixed bottom-0 inset-x-0 border-t border-blue">
@@ -72,5 +48,5 @@ export default function CookieBar() {
         </div>
       </div>
     )
-  }*/
+  }
 }

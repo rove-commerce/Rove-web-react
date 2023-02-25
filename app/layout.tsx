@@ -1,7 +1,7 @@
 import "./globals.css";
 import MainNavigation from "../components/MainNavigation";
 import FooterNavigation from "../components/FooterNavigation";
-import CookieBar from "../components/CookieBar";
+import CookieBar2 from "../components/CookieBar2";
 import Script from "next/script";
 import type { Metadata } from 'next';
 
@@ -40,7 +40,7 @@ export default function RootLayout({
         <MainNavigation />
         {children}
         <FooterNavigation />
-        <CookieBar />
+        <CookieBar2 />
       </body>
     </html>
   );
