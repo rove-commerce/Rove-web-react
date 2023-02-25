@@ -11,6 +11,7 @@ export default function CookieBar2() {
   }
 
   function showCookieBar(): boolean {
+    console.log("accept: " + accept);
     return !accept;
   }
   
@@ -40,12 +41,6 @@ export default function CookieBar2() {
       </div>
     );
   } else {
-    return (
-      <div className="bg-white p-4 fixed bottom-0 inset-x-0 border-t border-blue">
-        <div className="wrapper flex justify-between items-end">
-          <h3>Cookie footer</h3>
-        </div>
-      </div>
-    )
+    return (<></>)
   }
 }
