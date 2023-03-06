@@ -1,13 +1,13 @@
 import "./globals.css";
 import MainNavigation from "../components/MainNavigation";
 import FooterNavigation from "../components/FooterNavigation";
-import CookieBar from "../components/CookieBar";
+import CookieBar2 from "../components/CookieBar2";
 import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title: {
-		default: "Rove | E-handel, MarTech och digital marknadsföring",
+		default: "Rove | E-handel, martech och digital marknadsföring",
 		template: "%s | rove.se | Sverige",
 	},
 	keywords: [
