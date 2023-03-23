@@ -3,7 +3,7 @@ import ReadLink from "./ReadLink";
 
 export default function BlogSummary() {
 	return (
-		<div className="bg-pink py-20">
+		<div className="bg-white py-20">
 			<div className="wrapper">
 				<div className="inner-wrapper">
 					<div>
