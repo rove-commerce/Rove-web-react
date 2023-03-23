@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ReadLink from "../../components/ReadLink";
 import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";
 
@@ -11,6 +12,24 @@ export default function Home() {
 	return (
 		<>
 			<PageHeader>Jobb</PageHeader>
+			<div className="bg-orange py-20">
+				<div className="wrapper">
+					<div className="inner-wrapper">
+						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
+							<h3>Just nu söker vi</h3>
+						</div>
+						<p>
+							<ReadLink href="/jobb/litium-arkitekt/" title="Litium-arkitekt (som vill vara med från början och bygga bolag)" />
+						</p>
+						<p>
+							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare (som vill vara med från början och bygga bolag)" />
+						</p>
+						<p>
+							<ReadLink href="/jobb/frontend-utvecklare/" title="Frontend-utvecklare (som vill vara med från början och bygga bolag)" />
+						</p>
+					</div>
+				</div>
+			</div>
 			<div className="bg-white py-20">
 				<div className="wrapper">
 					<div className="inner-wrapper">
