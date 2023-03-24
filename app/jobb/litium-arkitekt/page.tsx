@@ -45,7 +45,7 @@ export default function Home() {
 								<li>Har flera års erfarenhet av att leverera e-handelslösningar, gärna på Litiums e-handelsplattform</li>
 								<li>Är väl bekant med Docker, Elasticsearch och Redis</li>
 								<li>Har erfarenhet av att leda utvecklingsteam</li>
-								<li>Inte har något med att hjälpa till i säljet som pre-sale</li>
+								<li>Inte har något emot att hjälpa till i säljet som pre-sale</li>
 								<li>Är väl bekant med viktiga processer såsom agil utveckling, deployment, test, versionshantering och dokumentation</li>
 								<li>Uttrycker dig väl i tal och skrift på svenska och engelska</li>
 								<li>Är pragmatisk, kundcentrisk och bidrar till en positiv kultur</li>
