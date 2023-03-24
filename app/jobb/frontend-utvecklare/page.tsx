@@ -47,10 +47,10 @@ export default function Home() {
 							<ul>
 								<li>Erfarenhet från e-handel</li>
 								<li>Erfarenhet av att arbete med Litiums e-handelsplattform</li>
-								<li>Erfarenhet av Tailwind CSS och Foundation by Zurb</li>
+								<li>Erfarenhet av next.js, TypeScript, Tailwind CSS och Foundation by Zurb</li>
 								<li>Grundläggande kunskap om SEO och SEM</li>
 							</ul>
-							<p>Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
+							<p>Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
 						</div>
 					</div>
 				</div>

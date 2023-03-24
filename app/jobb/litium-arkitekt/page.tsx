@@ -51,7 +51,7 @@ export default function Home() {
 								<li>Är pragmatisk, kundcentrisk och bidrar till en positiv kultur</li>
 								<li>Vill vara med och bygga bolag, du tycker om att arbeta metodiskt och bygga struktur och utveckla metoder</li>
 							</ul>
-							<p>Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
+							<p>Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
 						</div>
 					</div>
 				</div>

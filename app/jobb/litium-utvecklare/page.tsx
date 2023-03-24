@@ -49,7 +49,7 @@ export default function Home() {
 								<li>Erfarenhet av att arbeta med Docker, Elasticsearch, Kibana och Redis</li>
 								<li>Erfarenhet av att bygga integrationer </li>
 							</ul>
-							<p>Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
+							<p>Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
 						</div>
 					</div>
 				</div>
