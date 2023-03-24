@@ -16,16 +16,16 @@ export default function Home() {
 				<div className="wrapper">
 					<div className="inner-wrapper">
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
-							<h3>Just nu söker vi</h3>
+							<h3>Bli en del av vårt team, just nu söker vi</h3>
 						</div>
 						<p>
-							<ReadLink href="/jobb/litium-arkitekt/" title="Litium-arkitekt (som vill vara med från början och bygga bolag)" />
+							<ReadLink href="/jobb/litium-arkitekt/" title="Litium-arkitekt" />
 						</p>
 						<p>
-							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare (som vill vara med från början och bygga bolag)" />
+							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare" />
 						</p>
 						<p>
-							<ReadLink href="/jobb/frontend-utvecklare/" title="Frontend-utvecklare (som vill vara med från början och bygga bolag)" />
+							<ReadLink href="/jobb/frontend-utvecklare/" title="Frontend-utvecklare" />
 						</p>
 					</div>
 				</div>
