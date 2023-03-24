@@ -23,7 +23,7 @@ export default function MainNavigation() {
               <Link
                 href="/tjanster"
                 className={
-                  currentPath === "/tjanster"
+                  currentPath?.includes("/tjanster")
                     ? "text-pink font-semibold"
                     : "hover:underline"
                 }
@@ -35,7 +35,7 @@ export default function MainNavigation() {
               <Link
                 href="/kunder"
                 className={
-                  currentPath === "/kunder"
+                  currentPath?.includes("/kunder")
                     ? "text-pink font-semibold"
                     : "hover:underline"
                 }
@@ -47,7 +47,7 @@ export default function MainNavigation() {
               <Link
                 href="/om-rove"
                 className={
-                  currentPath === "/om-rove"
+                  currentPath?.includes("/om-rove")
                     ? "text-pink font-semibold"
                     : "hover:underline"
                 }
@@ -59,7 +59,7 @@ export default function MainNavigation() {
               <Link
                 href="/jobb"
                 className={
-                  currentPath === "/jobb"
+                  currentPath?.includes("/jobb")
                     ? "text-pink font-semibold"
                     : "hover:underline"
                 }
