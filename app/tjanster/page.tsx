@@ -67,7 +67,7 @@ export default function Home() {
 							<p className="text-black text-16 mb-2">
 								Vi implementerar er e-handelslösning utifrån era affärsmål - design, systemutveckling, integrationer, utrullning, utbildning,
 								test & kvalitetssäkring, interna processer och organisation. Vi arbetar med Litium Commerce Cloud{" "}
-								<span style={{ whiteSpace: "nowrap" }}>e-handel</span>, PIM och CMS) och dess paketering Litium Accelerator.
+								<span style={{ whiteSpace: "nowrap" }}>e-handel</span>, PIM och CMS och dess paketering Litium Accelerator.
 							</p>
 						</div>
 						<div className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-12">
