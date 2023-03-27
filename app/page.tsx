@@ -3,6 +3,7 @@ import BlogSummary from "../components/BlogSummary";
 import ContactForm from "../components/ContactForm";
 import Jumbotron from "../components/Jumbotron";
 import ReadLink from "../components/ReadLink";
+import LitiumBlock from "../components/LitiumBlock";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ export default function Home() {
 	return (
 		<>
 			<Jumbotron />
+			<LitiumBlock />
 			<div className="bg-orange">
 				<div className="wrapper py-24 tablet:py-32">
 					<div className="inner-wrapper">
@@ -34,6 +36,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+
 			<BlogSummary />
 			<ContactForm name="startpage-form" />
 		</>
