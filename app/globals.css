@@ -87,6 +87,10 @@
     box-shadow: theme("colors.pink") 8px 8px 0px 0px;
 }
 
+.shadow-orange {
+    box-shadow: theme("colors.orange") 8px 8px 0px 0px;
+}
+
 .shadow-yellow {
     box-shadow: theme("colors.yellow") 8px 8px 0px 0px;
 }
