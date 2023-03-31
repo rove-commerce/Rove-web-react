@@ -87,10 +87,10 @@ export default function Home() {
 			</p>
 			<p>
 				Vad jag vet har man inte landat i val av ramverk för global statehantering och cookie-hantering ännu. Man använder redan Context API för den
-				faceterade söken, så sannolikt jobbar man vidare med den lösningen. Om Context API inte räcker hela vägen skulle jag gissa att Recoil ligger bra
-				till. Vad gäller cookies så finns det i nuläget funktionalitet inbyggt i next.js för att läsa, men inte skriva. Antingen väntar man på att
-				next.js även kan skriva cookies, eller så får man nog väva in cookie-react eller liknande. I båda frågorna vore det bra om Litium satte ner
-				foten så att inte lösningar och add-ons börjar att spreta.
+				faceterade söken, så sannolikt jobbar man vidare med den lösningen. Om Context API inte räcker hela vägen skulle jag gissa att Recoil eller
+				zustand ligger bra till. Vad gäller cookies så finns det i nuläget funktionalitet inbyggt i next.js för att läsa, men inte skriva. Antingen
+				väntar man på att next.js även kan skriva cookies, eller så får man nog väva in cookie-react eller liknande. I båda frågorna vore det bra om
+				Litium satte ner foten så att inte lösningar och add-ons börjar att spreta.
 			</p>
 			<p>
 				Tailwind, inte mycket att kommentera där. Är det någon som inte gillar Tailwind? Det innebär att man väljer ett annat CSS-ramverk än i MVC
