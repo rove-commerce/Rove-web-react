@@ -20,7 +20,7 @@ export default function Home() {
 							</p>
 							<p>
 								Vi vill nu bilda ett core-team som tillsammans ska bygga företaget från grunden. Ett team som delar samma ambition att skapa ett
-								framgångsrikt och riktigt bra företag, med stark kultur och stort kundfokus som arbetar i frontlinjen inom digital handel.
+								framgångsrikt och riktigt bra företag, med stark kultur och stort kundfokus som arbetar i frontlinjen inom teknik och digital handel.
 							</p>
 							<p>
 								Fundamentet i Rove utgörs av en kundcentrisk, professionell och empatisk företagskultur. Vi vill ha en kultur av tillit med
@@ -39,6 +39,7 @@ export default function Home() {
 							<ul>
 								<li>Är en erfaren .Net/C#-utvecklare</li>
 								<li>Har några års erfarenhet av att arbete med Litiums e-handelsplattform</li>
+								<li>Du vill alltid lära och utvecklas och tycker om att utforska ny teknik</li>
 								<li>Uttrycker dig väl i tal och skrift på svenska och engelska</li>
 								<li>Är pragmatisk, kundcentrisk och bidrar till en positiv kultur</li>
 								<li>Vill vara med och bygga bolag, du tycker om att arbeta metodiskt och bygga struktur och utveckla metoder</li>

@@ -39,6 +39,7 @@ export default function Home() {
 							<ul>
 								<li>Är en erfaren frontend-utvecklare väl bekant med JavaScript, React och relaterade teknologier</li>
 								<li>Har en känsla för design, UX och användbarhet</li>
+								<li>Du vill alltid lära och utvecklas och tycker om att utforska ny teknik</li>
 								<li>Uttrycker dig väl i tal och skrift på svenska och engelska</li>
 								<li>Är pragmatisk, kundcentrisk och bidrar till en positiv kultur</li>
 								<li>Vill vara med och bygga bolag, du tycker om att arbeta metodiskt och bygga struktur och utveckla metoder</li>
