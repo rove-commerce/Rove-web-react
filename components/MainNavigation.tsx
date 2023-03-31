@@ -34,10 +34,11 @@ export default function MainNavigation() {
 								Om Rove
 							</Link>
 						</li>
-						<li className="ml-6">
-							<Link href="/jobb" className={currentPath?.includes("/jobb") ? "text-pink font-semibold" : "hover:underline"}>
+						<li className="ml-6 flex">
+							<Link href="/jobb" className={currentPath?.includes("/jobb") ? "text-pink font-semibold mr-1" : "hover:underline mr-1"}>
 								Jobb
 							</Link>
+							<span className="inline-block bg-red text-xs text-white mb-2 px-1 rounded-full tracking-wide">3</span>
 						</li>
 					</ul>
 				</nav>
@@ -74,10 +75,11 @@ export default function MainNavigation() {
 										Om Rove
 									</Link>
 								</li>
-								<li className="mt-10">
-									<Link onClick={mobileMenuClick} href="/jobb">
+								<li className="mt-10 flex">
+									<Link onClick={mobileMenuClick} className="mr-1" href="/jobb">
 										Jobb
 									</Link>
+									<span className="inline-block bg-red text-xs text-white mb-5 px-1 rounded-full tracking-wide">3</span>
 								</li>
 							</ul>
 						</div>
