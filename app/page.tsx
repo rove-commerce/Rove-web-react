@@ -18,7 +18,7 @@ export default function Home() {
 			<Jumbotron />
 			<LitiumBlock />
 			<div className="bg-orange">
-				<div className="wrapper py-24 tablet:py-32">
+				<div className="wrapper py-20">
 					<div className="inner-wrapper">
 						<span className="block text-blue text-12 uppercase mb-2">Jobb</span>
 						<Link href="/jobb">
