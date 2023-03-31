@@ -10,8 +10,11 @@ export default function BlogSummary() {
 						{/* Promoted blog post */}
 						<span className="block text-blue text-12 uppercase mb-2">Blogg</span>
 						<Link href="/blogg/tekniken-Litiums-Headless-Accelerator">
-							<div className="text-blue text-20 leading-normal mb-4 laptop:text-32">
-								Vi tar en titt på tekniken i Litiums nya Headless Accelerator
+							<div className="flex items-baseline">
+								<div className="mr-2 text-blue text-20 leading-normal mb-4 laptop:text-32">
+									Vi tar en titt på tekniken i Litiums nya Headless Accelerator
+								</div>
+								<span className="inline-block bg-red text-white text-20 laptop:text-32 px-3 rounded-full tracking-wide">Ny</span>
 							</div>
 						</Link>
 						<ReadLink href="/blogg/tekniken-Litiums-Headless-Accelerator" />
