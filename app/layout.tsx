@@ -42,6 +42,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('config', '${GA_MEASUREMENT_ID}');
         `}
 			</Script>
+			{/* Start of HubSpot Tracking Code */}
+			<Script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8359383.js"></Script>
 			<body>
 				<MainNavigation />
 				{children}
