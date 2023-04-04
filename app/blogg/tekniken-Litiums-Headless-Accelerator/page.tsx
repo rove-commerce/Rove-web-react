@@ -17,7 +17,7 @@ export default function Home() {
 			</div>
 			<p className="preamble">
 				Snart så, snart är den här. Litiums nya React-Accelerator för headless och composable commerce. Vi har tittat på techstacken och hur den nya
-				Acceleratorn knyter ihop säcken med containeriseringen i Litiums nya Serverless Cloud.
+				Acceleratorn knyter ihop säcken med containeriseringen i Litiums nya Serverless Cloud. Blir det flipp eller flopp?
 			</p>
 			<p>
 				Det uppenbara syftet med Litiums nya React-Accelerator är att nå kunder som vurmar för headless/composable. Men minst lika viktigt är att öppna
@@ -52,8 +52,8 @@ export default function Home() {
 				att lägga order eller genomföra betalning.
 			</p>
 			<p>
-				Sist men inte minst, React Acceleratorn, som likt Litiums tidigare Acceleratorer har skapats för att ge konkret kundvärde i form av (mycket!)
-				lägre utvecklingskostnader plus en teknisk och affärsmässig best practice för hur man ska bygga och arbeta med e-handel. React Acceleratorn har
+				Sist men inte minst, React Acceleratorn, som likt Litiums tidigare Acceleratorer har skapats för att ge konkret kundvärde i form av lägre
+				utvecklingskostnader plus en teknisk och affärsmässig best practice för hur man ska bygga och arbeta med e-handel. React Acceleratorn har
 				jobbats fram tillsammans med några av Litiums partners, vilket nog var ett smart drag, och jag måste säga att ambitionen är mycket högre än vad
 				jag först trodde.
 			</p>
