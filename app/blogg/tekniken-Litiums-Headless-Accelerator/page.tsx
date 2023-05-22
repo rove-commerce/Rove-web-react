@@ -52,8 +52,7 @@ export default function Home() {
 				att lägga order eller genomföra betalning.
 			</p>
 			<p>
-				Sist men inte minst, React Acceleratorn, som likt Litiums tidigare Acceleratorer har skapats för att ge konkret kundvärde i form av (mycket!)
-				lägre utvecklingskostnader plus en teknisk och affärsmässig best practice för hur man ska bygga och arbeta med e-handel. React Acceleratorn har
+				Sist men inte minst, React Acceleratorn, som likt Litiums tidigare Acceleratorer har skapats för att ge konkret kundvärde i form av lägre utvecklingskostnader plus en teknisk och affärsmässig best practice för hur man ska bygga och arbeta med e-handel. React Acceleratorn har
 				jobbats fram tillsammans med några av Litiums partners, vilket nog var ett smart drag, och jag måste säga att ambitionen är mycket högre än vad
 				jag först trodde.
 			</p>
