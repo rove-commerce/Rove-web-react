@@ -7,7 +7,7 @@ import HubSpotLogo from "../../public/hubspotLogo.png";
 import ReactLogo from "../../public/ReactLogo.png";
 import AzureLogo from "../../public/AzureLogo.png";
 import NextjsLogo from "../../public/nextjs-logotype-light-background.png";
-import NodejsLogo from "../../public/nodejsLogo.png";
+import NodejsLogo from "../../public/nodejslogo.png";
 
 export const metadata: Metadata = {
 	title: "Tjänster",
