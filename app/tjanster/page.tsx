@@ -64,11 +64,11 @@ export default function Home() {
 						</div>
 						<div className="flex items-center flex-wrap flex-col laptop:flex-row laptop:space-x-10">
 							<Image alt="Litium logo" src={LitiumLogo} className="w-32 pb-8" />
-							<Image alt="HubSpot logo" src={HubSpotLogo} className="w-32 pb-8" />
-							<Image alt="Node.js logo" src={NodejsLogo} className="w-28 pb-4" />
+							<Image alt="HubSpot logo" src={HubSpotLogo} className="w-28 pb-8" />
+							<Image alt="Node.js logo" src={NodejsLogo} className="w-24 pb-4" />
 							<Image alt="React logo" src={ReactLogo} className="w-32 pb-8" />
-							<Image alt="Next.js logo" src={NextjsLogo} className="w-32 pb-8" />
-							<Image alt="Azure logo" src={AzureLogo} className="w-32 pb-8" />
+							<Image alt="Next.js logo" src={NextjsLogo} className="w-28 pb-8" />
+							<Image alt="Azure logo" src={AzureLogo} className="w-28 pb-8" />
 						</div>
 					</div>
 				</div>
