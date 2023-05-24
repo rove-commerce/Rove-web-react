@@ -19,7 +19,7 @@ export default function LitiumBlock() {
 						</a>
 					</div>
 					<div className="flex flex-col items-center max-w-md laptop:max-w-none laptop:w-1/2 laptop:pr-6 laptop:pl-8 mx-auto laptop:mx-0">
-						<Link href="/tjanster#methods">
+						<Link href="/tjanster#advisory">
 							<div className="flex items-center bg-blue p-8 shadow-pink">
 								<div>
 									<p className="text-white text-14 mb-2 pr-4">Upphandling av e-handel, PIM eller verktyg för digital marknadsföring</p>
@@ -32,7 +32,7 @@ export default function LitiumBlock() {
 							<div className="flex items-center bg-blue p-8 shadow-orange mt-5">
 								<div>
 									<p className="text-white text-14 mb-2 pr-4">Nyutveckling, vidareutveckling och införande av Litium </p>
-									<span className="text-white text-16 font-bold">Rove Build</span>
+									<span className="text-white text-16 font-bold">Rove Utveckling</span>
 								</div>
 								<Image alt="Utveckling Litium" className="ml-2" src={UtvecklingLogo} style={{ maxWidth: "50px" }} />
 							</div>

@@ -99,6 +99,13 @@
     box-shadow: theme("colors.green") 8px 8px 0px 0px;
 }
 
+.shadow-gray {
+    box-shadow: theme("colors.gray") 8px 8px 0px 0px;
+}
+
+.shadow-gray-light {
+    box-shadow: theme("colors.gray-light") 8px 8px 0px 0px;
+}
 .white-gradient {
     background-image: linear-gradient(to bottom, transparent, #fff);
 }
