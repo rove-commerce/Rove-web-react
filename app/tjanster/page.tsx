@@ -8,6 +8,9 @@ import ReactLogo from "../../public/ReactLogo.png";
 import AzureLogo from "../../public/AzureLogo.png";
 import NextjsLogo from "../../public/nextjs-logotype-light-background.png";
 import NodejsLogo from "../../public/nodejslogo.png";
+import AdvisoryLogo from "../../public/LogoAdvisory.png";
+import BuildLogo from "../../public/LogoBuild.png";
+import OptimzeLogo from "../../public/LogoOptimize.png";
 
 export const metadata: Metadata = {
 	title: "Tjänster",
@@ -33,21 +36,30 @@ export default function Home() {
 						</div>
 
 						<div id="advisory" className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-12">
-							<p className="text-blue text-24 pt-4 laptop:pt-0 mb-4 font-semibold">Strategisk rådgivning</p>
+							<div className="flex items-center mb-4 pt-4 laptop:pt-0">
+								<Image className="w-6 h-6 mr-2" alt="Utveckling" src={AdvisoryLogo} />
+								<p className="text-blue text-24 font-semibold">Strategisk rådgivning</p>
+							</div>
 							<p className="text-black text-18 mb-2">
 								Beslutsunderlag nytt system/process, upphandling av system eller leverantör, strategi för lead generation och
 								content/inbound-marketing, projektledning, styrgruppsarbete och processutveckling.
 							</p>
 						</div>
 						<div id="build" className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-12">
-							<p className="text-blue text-24 pt-4 laptop:pt-0 mb-4 font-semibold">Utveckling</p>
+							<div className="flex items-center mb-4 pt-4 laptop:pt-0">
+								<Image className="w-6 h-6 mr-2" alt="Utveckling" src={BuildLogo} />
+								<p className="text-blue text-24 font-semibold">Utveckling</p>
+							</div>
 							<p className="text-black text-18 mb-2">
 								Nyutveckling, vidareutveckling, test och införande av e-handelsplattform, PIM, DAM och martech. Vi arbetar bl.a. med Litium,
 								HubSpot och headless/composable commerce.
 							</p>
 						</div>
 						<div id="optimize" className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-4">
-							<p className="text-blue text-24 pt-4 laptop:pt-0 mb-4 font-semibold">Optimering & insikter</p>
+							<div className="flex items-center mb-4 pt-4 laptop:pt-0">
+								<Image className="w-6 h-6 mr-2" alt="Utveckling" src={OptimzeLogo} />
+								<p className="text-blue text-24 font-semibold">Optimering & insikter</p>
+							</div>
 							<p className="text-black text-18 mb-2">
 								Optimering och datadrivna insikter för ökad försäljning och lojalitet. Vi arbetar bl.a med KPI-uppsättning, konverteringsanalys,
 								målgruppsanalys och utveckling av kundresan.
