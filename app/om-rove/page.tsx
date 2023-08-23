@@ -22,8 +22,8 @@ export default function Home() {
 							<h2>Rove</h2>
 						</div>
 						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
-							<Image className="w-4 h-4 mr-2" alt="Ständigt lärande" src={LearningLogo} />
-							<p className="text-blue text-18 font-semibold">Ständigt lärande</p>
+							<Image className="w-4 h-4 mr-2" alt="Lärande" src={LearningLogo} />
+							<p className="text-blue text-18 font-semibold">Lärande</p>
 							<Image className="w-4 h-4 mr-2 ml-5" alt="Omtanke" src={OmtankeLogo} />
 							<p className="text-blue text-18 font-semibold">Omtanke</p>
 							<Image className="w-4 h-4 mr-2 ml-5" alt="Ambition" src={AmbitionLogo} />
@@ -32,13 +32,13 @@ export default function Home() {
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<p>
 								Rove betyder &quot;​a vigorous and purposeful journey without ever reaching your destination&quot;.{" "}
-								<span className="border-b-2 border-blue">En kraftfull och målmedveten upptäcksresa som aldrig tar slut.</span> En Rover är en
+								<span className="border-b-2 border-grey">En kraftfull och målmedveten upptäcksresa som aldrig tar slut.</span> En Rover är en
 								ambitiös utforskare som hela tiden vill utvecklas och bli bättre.
 							</p>
 							<p>
 								Med Rove vill vi skapa ett bolag med hög ambition som prioriterar ständigt lärande. Vi vill hela tiden bli bättre med syfte att
 								ge våra kunder ett större värde. Vi vill också skapa ett omtänktsamt bolag, vi ska ta hand om varandra och våra kunder. Därför
-								bygger vi bolaget utifrån våra tre värderingar: Ständigt lärande, Omtanke och Ambition.
+								bygger vi bolaget utifrån våra tre värderingar: Lärande, Omtanke och Ambition.
 							</p>
 						</div>
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>

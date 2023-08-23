@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import ReadLink from "../../components/ReadLink";
 import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";
+import OmtankeLogo from "../../public/LogoOmtanke.png";
+import AmbitionLogo from "../../public/LogoAmbition.png";
+import LearningLogo from "../../public/LogoLearning.png";
 
 export const metadata: Metadata = {
 	title: "Jobb",
@@ -45,25 +49,46 @@ export default function Home() {
 								erfarenhet, omvärldsbevakning och input från de bästa i branschen. Allt i syfte att göra våra kunder framgångsrika genom digital
 								handel.
 							</p>
-							<h3>Vårt varför - ständig utveckling</h3>
-							<p>
-								Vi vill ständigt bli bättre. Att utvecklas och lära är motiverande. Det är vårt &quot;Varför&quot;. Det gör att vi kan ge våra
-								kunder ett större värde.
-							</p>
+							<h3>Kultur</h3>
+						</div>
 
-							<h3>Kultur & värderingar</h3>
+						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<p>
-								Fundamentet i Rove utgörs av en kundcentrisk, professionell och empatisk företagskultur. Vi vill ha en kultur av tillit med
-								stort eget ansvar där vi inte detaljstyr varandra, med tydliga mål och mandat som uppmanar till egna initiativ och bra beslut.
-								Vi vill ha rak kommunikation med positiv feedback för att hjälpa varandra att utvecklas.
+								Fundamentet i Rove utgörs av en lärande, omtänksam och ambitiös företagskultur - det är våra viktigaste värden som vi bygger
+								företaget på. Vi vill ha en kultur av tillit med stort eget ansvar där vi inte detaljstyr varandra, med tydliga mål och mandat
+								som uppmanar till egna initiativ och bra beslut. Vi vill ha rak kommunikation med positiv feedback för att hjälpa varandra att
+								utvecklas.
 							</p>
-							<p>Och för att verkligen lyckas behöver vi ta hand om varandra, vi ska må bra dygnet runt och i livets alla skeden.</p>
+						</div>
+						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
+							<Image className="w-5 h-5 mr-2" alt="Lärande" src={LearningLogo} />
+							<p className="text-blue text-20 ">Lärande</p>
+						</div>
+						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
+							<p>
+								Med Rove vill vi skapa ett företag som prioriterar ständigt lärande. Att lära och utvecklas är motiverande. Det gör att vi kan
+								ge våra kunder ett större värde.
+							</p>
+						</div>
+						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
+							<Image className="w-5 h-5 mr-2" alt="Omtanke" src={OmtankeLogo} />
+							<p className="text-blue text-20 ">Omtanke</p>
+						</div>
+						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
+							<p>För att verkligen lyckas behöver vi ta hand om varandra, vi ska må bra dygnet runt och i livets alla skeden.</p>
+						</div>
+						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
+							<Image className="w-5 h-5 mr-2" alt="Ambition" src={AmbitionLogo} />
+							<p className="text-blue text-20 ">Ambition</p>
+						</div>
+						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
+							<p>Vi vill bli bäst på det vi gör. Vi vill bygga ett fantastiskt företag. Vi vågar utmana och sätta ambitiösa mål.</p>
 							<h3>Incitamentsprogram för delad framgång</h3>
 							<p>
 								Vi vill skapa ett starkt incitament till att lyckas, utöver fast lön arbetar vi med en generös vinstdelningsmodell utifrån
 								lagets resultat.
 							</p>
-							<p>Vill du bli en Rover? Skicka din ansökan till jobb _at_ rove.se.</p>
+							<p>Vill du bli en Rover? Skicka din ansökan till jobb@rove.se.</p>
 						</div>
 					</div>
 				</div>
