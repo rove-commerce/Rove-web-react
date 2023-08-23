@@ -62,7 +62,7 @@ export default function Home() {
 						</div>
 						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
 							<Image className="w-5 h-5 mr-2" alt="Lärande" src={LearningLogo} />
-							<p className="text-blue text-20 ">Lärande</p>
+							<p className="text-blue text-20 font-semibold">Lärande</p>
 						</div>
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<p>
@@ -72,17 +72,20 @@ export default function Home() {
 						</div>
 						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
 							<Image className="w-5 h-5 mr-2" alt="Omtanke" src={OmtankeLogo} />
-							<p className="text-blue text-20 ">Omtanke</p>
+							<p className="text-blue text-20 font-semibold">Omtanke</p>
 						</div>
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<p>För att verkligen lyckas behöver vi ta hand om varandra, vi ska må bra dygnet runt och i livets alla skeden.</p>
 						</div>
 						<div className="flex items-center mb-4 pt-4 laptop:pt-0">
 							<Image className="w-5 h-5 mr-2" alt="Ambition" src={AmbitionLogo} />
-							<p className="text-blue text-20 ">Ambition</p>
+							<p className="text-blue text-20 font-semibold">Ambition</p>
 						</div>
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
-							<p>Vi vill bli bäst på det vi gör. Vi vill bygga ett fantastiskt företag. Vi vågar utmana och sätta ambitiösa mål.</p>
+							<p>
+								Vi vill bli bäst på det vi gör. Vi vill bygga ett fantastiskt företag. Vi vill att våra kunder ska lyckas. Vi vågar utmana och
+								sätta ambitiösa mål.
+							</p>
 							<h3>Incitamentsprogram för delad framgång</h3>
 							<p>
 								Vi vill skapa ett starkt incitament till att lyckas, utöver fast lön arbetar vi med en generös vinstdelningsmodell utifrån
