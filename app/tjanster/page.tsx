@@ -85,7 +85,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<ContactForm name="tjanster-form" />
+			<ContactForm name="tjanster-form">Vill du veta mer om våra tjänster?</ContactForm>
 		</>
 	);
 }
