@@ -10,8 +10,8 @@ export default function Jumbotron() {
 						och lead generation
 					</h1>
 					<div className="inline-flex mt-8 flex-col tablet:flex-row">
-						<Link href="/tjanster" className="btn-white inline-block">
-							Tjänster
+						<Link href="/kontakt" className="btn-white inline-block">
+							Kontakta oss
 						</Link>
 						<Link href="/jobb" className="btn-outline inline-block mt-4 tablet:mt-0 tablet:ml-4">
 							Bli en av oss
