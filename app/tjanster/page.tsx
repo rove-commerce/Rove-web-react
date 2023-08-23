@@ -37,7 +37,7 @@ export default function Home() {
 
 						<div id="advisory" className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-12">
 							<div className="flex items-center mb-4 pt-4 laptop:pt-0">
-								<Image className="w-6 h-6 mr-2" alt="Utveckling" src={AdvisoryLogo} />
+								{/*<Image className="w-6 h-6 mr-2" alt="Strategisk rådgivning" src={AdvisoryLogo} />*/}
 								<p className="text-blue text-24 font-semibold">Strategisk rådgivning</p>
 							</div>
 							<p className="text-black text-18 mb-2">
@@ -47,7 +47,7 @@ export default function Home() {
 						</div>
 						<div id="build" className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-12">
 							<div className="flex items-center mb-4 pt-4 laptop:pt-0">
-								<Image className="w-6 h-6 mr-2" alt="Utveckling" src={BuildLogo} />
+								{/*<Image className="w-6 h-6 mr-2" alt="Utveckling" src={BuildLogo} />*/}
 								<p className="text-blue text-24 font-semibold">Utveckling</p>
 							</div>
 							<p className="text-black text-18 mb-2">
@@ -57,7 +57,7 @@ export default function Home() {
 						</div>
 						<div id="optimize" className="laptop:px-4 py-1 border-t laptop:border-l laptop:border-t-0 border-blue mb-4">
 							<div className="flex items-center mb-4 pt-4 laptop:pt-0">
-								<Image className="w-6 h-6 mr-2" alt="Utveckling" src={OptimzeLogo} />
+								{/*<Image className="w-6 h-6 mr-2" alt="Optimering & insikter" src={OptimzeLogo} />*/}
 								<p className="text-blue text-24 font-semibold">Optimering & insikter</p>
 							</div>
 							<p className="text-black text-18 mb-2">
