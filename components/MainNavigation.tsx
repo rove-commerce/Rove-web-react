@@ -34,6 +34,11 @@ export default function MainNavigation() {
 								Om Rove
 							</Link>
 						</li>
+						<li className="ml-6">
+							<Link href="/kontakt" className={currentPath?.includes("/kontakt") ? "text-pink font-semibold" : "hover:underline"}>
+								Kontakt
+							</Link>
+						</li>
 						<li className="ml-6 flex">
 							<Link href="/jobb" className={currentPath?.includes("/jobb") ? "text-pink font-semibold mr-1" : "hover:underline mr-1"}>
 								Jobb
@@ -73,6 +78,11 @@ export default function MainNavigation() {
 								<li className="mt-10">
 									<Link onClick={mobileMenuClick} href="/om-rove">
 										Om Rove
+									</Link>
+								</li>
+								<li className="mt-10">
+									<Link onClick={mobileMenuClick} href="/kontakt">
+										Kontakt
 									</Link>
 								</li>
 								<li className="mt-10 flex">
