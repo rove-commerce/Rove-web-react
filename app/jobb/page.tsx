@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import ReadLink from "../../components/ReadLink";
 import ContactForm from "../../components/ContactForm";
 import PageHeader from "../../components/PageHeader";
@@ -22,15 +23,17 @@ export default function Home() {
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<h3>Bli en del av vårt team, just nu söker vi</h3>
 						</div>
-						<p>
-							<ReadLink href="/jobb/tech-lead/" title="Tech Lead" />
-						</p>
-						<p>
-							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare" />
-						</p>
-						<p>
-							<ReadLink href="/jobb/frontend-utvecklare/" title="Frontend-utvecklare" />
-						</p>
+						<div className="inline-flex mt-8 flex-col laptop:flex-row">
+							<Link href="/jobb/tech-lead/" className="btn-blue inline-block font-medium">
+								Tech Lead
+							</Link>
+							<Link href="/jobb/litium-utvecklare/" className="btn-blue inline-block font-medium mt-4 laptop:mt-0 laptop:ml-4">
+								Litium-utvecklare
+							</Link>
+							<Link href="jobb/frontend-utvecklare/" className="btn-blue inline-block font-medium mt-4 laptop:mt-0 laptop:ml-4">
+								Frontend-utvecklare
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>

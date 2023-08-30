@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<>
-			<PageHeader>Frontend-utvecklare (som vill vara med från början och bygga bolag)</PageHeader>
+			<PageHeader>Frontend-utvecklare</PageHeader>
 			<div className="bg-white py-20">
 				<div className="wrapper">
 					<div className="inner-wrapper">
@@ -51,7 +51,10 @@ export default function Home() {
 								<li>Erfarenhet av next.js, TypeScript, Tailwind CSS och Foundation by Zurb</li>
 								<li>Grundläggande kunskap om SEO och SEM</li>
 							</ul>
-							<p>Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
+							<p>
+								Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_
+								rove.se!
+							</p>
 						</div>
 					</div>
 				</div>

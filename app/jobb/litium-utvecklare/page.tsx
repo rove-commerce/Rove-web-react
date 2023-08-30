@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<>
-			<PageHeader>Litium-utvecklare (som vill vara med från början och bygga bolag)</PageHeader>
+			<PageHeader>Litium-utvecklare</PageHeader>
 			<div className="bg-white py-20">
 				<div className="wrapper">
 					<div className="inner-wrapper">
@@ -20,7 +20,8 @@ export default function Home() {
 							</p>
 							<p>
 								Vi vill nu bilda ett core-team som tillsammans ska bygga företaget från grunden. Ett team som delar samma ambition att skapa ett
-								framgångsrikt och riktigt bra företag, med stark kultur och stort kundfokus som arbetar i frontlinjen inom teknik och digital handel.
+								framgångsrikt och riktigt bra företag, med stark kultur och stort kundfokus som arbetar i frontlinjen inom teknik och digital
+								handel.
 							</p>
 							<p>
 								Fundamentet i Rove utgörs av en kundcentrisk, professionell och empatisk företagskultur. Vi vill ha en kultur av tillit med
@@ -50,7 +51,10 @@ export default function Home() {
 								<li>Erfarenhet av att arbeta med Docker, Elasticsearch, Kibana och Redis</li>
 								<li>Erfarenhet av att bygga integrationer </li>
 							</ul>
-							<p>Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_ rove.se!</p>
+							<p>
+								Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_
+								rove.se!
+							</p>
 						</div>
 					</div>
 				</div>
