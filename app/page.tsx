@@ -26,7 +26,7 @@ export default function Home() {
 							<div className="text-blue text-20 leading-normal mb-4 laptop:text-32">Vill du bygga bolag med oss?</div>
 						</Link>
 						<p>
-							<ReadLink href="/jobb/litium-arkitekt/" title="Litium-arkitekt" />
+							<ReadLink href="/jobb/tech-lead/" title="Tech Lead" />
 						</p>
 						<p>
 							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare" />

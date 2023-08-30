@@ -33,8 +33,8 @@ export default function Top3USP() {
 							<div>
 								<span className="text-white text-18 font-medium">Vi kan e-handel</span>
 								<p className="text-white text-14 mb-2 mt-2 pr-4">
-									Vi är nischade mot e-handel och vi har själva varit e-handlare, vilket gör att vi har ett affärsmässigt och tekniskt djup
-									som andra saknar.
+									Vi är nischade mot e-handel och vi har själva varit e-handlare. Det gör att vi har ett affärsmässigt och tekniskt djup som
+									andra saknar.
 								</p>
 							</div>
 						</div>
