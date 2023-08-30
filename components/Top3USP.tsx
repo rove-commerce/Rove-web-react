@@ -4,7 +4,7 @@ import UpphandlingLogo from "../public/Rove-Form_Rosa-13.png";
 import UtvecklingLogo from "../public/Rove-Form_Orange-35.png";
 import ProjektledningLogo from "../public/Rove-Form_Turkos-03.png";
 
-export default function LitiumBlock() {
+export default function Top3USP() {
 	return (
 		<div className="bg-gray-light">
 			<div className="wrapper py-20">
