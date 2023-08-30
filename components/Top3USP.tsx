@@ -9,14 +9,14 @@ export default function Top3USP() {
 		<div className="bg-gray-light">
 			<div className="wrapper py-20">
 				<div className="inner-wrapper flex flex-col items-center justify-between">
-					<h2 className="text-32 text-blue leading-snug mb-3">Varför Rove?</h2>
+					<h2 className="text-32 text-blue leading-snug mb-3 ">Varför Rove?</h2>
 					<div className="flex flex-col laptop:flex-row justify-between">
 						<div className="flex items-start bg-blue p-8 m-6 h-auto w-auto laptop:w-2/5">
 							<div>
 								<span className="text-white text-18 font-medium">Fokus på er affär</span>
 								<p className="text-white text-14 mb-2 mt-2 pr-4">
-									Vi har själva varit e-handlare. Vi förstår er affär och slutkundens resa. Vårt fokus är att göra er framgångsrika genom både
-									affärsutveckling och teknikutveckling. Affären främst, tekniken ska “bara funka”.
+									Vi har själva varit e-handlare. Vi förstår er affär och slutkundens resa. Vi gör er framgångsrika genom att arbeta med både
+									affärsutveckling och teknikutveckling.. Affären främst, tekniken ska “bara funka”.
 								</p>
 							</div>
 						</div>

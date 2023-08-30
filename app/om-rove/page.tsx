@@ -49,7 +49,7 @@ export default function Home() {
 							</p>
 							<h3>Fokus på er affär</h3>
 							<p>
-								Vi förstår er affär och slutkundens resa. Vårt fokus är att göra er framgångsrika genom både affärsutveckling och
+								Vi förstår er affär och slutkundens resa. Vi gör er framgångsrika genom att arbeta både med affärsutveckling och
 								teknikutveckling. Affären främst, tekniken ska “bara funka”.
 							</p>
 							<h3>Långsiktiga relationer</h3>
