@@ -4,6 +4,7 @@ import ContactForm from "../components/ContactForm";
 import Jumbotron from "../components/Jumbotron";
 import ReadLink from "../components/ReadLink";
 import LitiumBlock from "../components/LitiumBlock";
+import Top3USP from "../components/Top3USP";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -36,7 +37,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-
+			<Top3USP />
 			<BlogSummary />
 			<ContactForm name="startpage-form" />
 		</>
