@@ -15,8 +15,8 @@ export default function Top3USP() {
 							<div>
 								<span className="text-white text-18 font-medium">Fokus på er affär</span>
 								<p className="text-white text-14 mb-2 mt-2 pr-4">
-									Vi har själva varit e-handlare. Vi förstår er affär och slutkundens resa. Vi gör er framgångsrika genom att arbeta med både
-									affärsutveckling och teknikutveckling.. Affären främst, tekniken ska “bara funka”.
+									Vi förstår er affär och slutkundens resa. Vi gör er framgångsrika genom att arbeta med både affärsutveckling och
+									teknikutveckling. Affären främst, tekniken ska “bara funka”.
 								</p>
 							</div>
 						</div>
@@ -33,7 +33,8 @@ export default function Top3USP() {
 							<div>
 								<span className="text-white text-18 font-medium">Vi kan e-handel</span>
 								<p className="text-white text-14 mb-2 mt-2 pr-4">
-									Vi är nischade mot e-handel, vilket gör att vi har ett affärsmässigt och tekniskt djup som andra inte har.
+									Vi är nischade mot e-handel och vi har själva varit e-handlare, vilket gör att vi har ett affärsmässigt och tekniskt djup
+									som andra saknar.
 								</p>
 							</div>
 						</div>
