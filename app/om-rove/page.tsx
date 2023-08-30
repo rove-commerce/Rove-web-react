@@ -40,14 +40,23 @@ export default function Home() {
 								ge våra kunder ett större värde. Vi vill också skapa ett omtänktsamt bolag, vi ska ta hand om varandra och våra kunder. Därför
 								bygger vi bolaget utifrån våra tre värderingar: Lärande, Omtanke och Ambition.
 							</p>
-						</div>
-						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<h3>Djup kunskap inom digital handel</h3>
 							<p>
 								Vi har en djup och bred kompetens inom digital handel, både på affärs- och tekniksidan. Vi har varit e-handlare själva och
 								förstår processerna och kundbehoven. Vi har också jobbat många år med produkt- och affärsutveckling på plattformssidan och har
 								därför en djup förståelse för hur e-handelsplattformar fungerar, vilka krav man ska ställa vid val av plattform utifrån ens
 								affärsmål och vilka styrkor olika plattformar har.
+							</p>
+							<h3>Fokus på er affär</h3>
+							<p>
+								Vi förstår er affär och slutkundens resa. Vårt fokus är att göra er framgångsrika genom både affärsutveckling och
+								teknikutveckling. Affären främst, tekniken ska “bara funka”.
+							</p>
+							<h3>Långsiktiga relationer</h3>
+							<p>
+								Vi vill ha förtroliga och långsiktiga kundrelationer. Ett riktigt partnerskap som handlar om att skapa kundvärde, inte om att
+								fakturera timmar. För att skapa ett sådant förtroende krävs ordning & reda, tydlig kommunikation, effektivitet, en hög ambition
+								och ett långsiktigt kundteam. Vi tycker också det är viktigt att ibland utmana våra kunder, annars är det svårt att lyckas.
 							</p>
 							<h3>Så arbetar vi</h3>
 							<p>
