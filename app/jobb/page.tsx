@@ -23,7 +23,7 @@ export default function Home() {
 							<h3>Bli en del av vårt team, just nu söker vi</h3>
 						</div>
 						<p>
-							<ReadLink href="/jobb/litium-arkitekt/" title="Litium-arkitekt" />
+							<ReadLink href="/jobb/tech-lead/" title="Tech Lead" />
 						</p>
 						<p>
 							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare" />
