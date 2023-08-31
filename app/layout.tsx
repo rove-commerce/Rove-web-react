@@ -24,9 +24,6 @@ export const metadata: Metadata = {
 		"Litium",
 		"HubSpot",
 	],
-	icons: {
-		icon: "/favicon.ico",
-	},
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
