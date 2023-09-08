@@ -39,7 +39,7 @@ export default function Home() {
 							</p>
 							<p>
 								För att lyckas tror vi att ständigt lärande är viktigt. Det är en resa som aldrig tar slut. Ordet Rove betyder just &quot;​a
-								vigorous and purposeful journey without ever reaching your destination &quot; - en kraftfull och målmedveten upptäcksresa som
+								vigorous and purposeful journey without ever reaching your destination&quot; - en kraftfull och målmedveten upptäcksresa som
 								aldrig tar slut.
 							</p>
 							<p>
