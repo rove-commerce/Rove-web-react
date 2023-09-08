@@ -31,14 +31,19 @@ export default function Home() {
 						</div>
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<p>
-								Rove betyder &quot;​a vigorous and purposeful journey without ever reaching your destination&quot;.{" "}
-								<span className="border-b-2 border-grey">En kraftfull och målmedveten upptäcksresa som aldrig tar slut.</span> En Rover är en
-								ambitiös utforskare som hela tiden vill utvecklas och bli bättre.
+								Rove är ett nystartat konsultföretag specialiserat på e-handel. Vi hjälper våra kunder att bli framgångsrika i sin digitala
+								affär genom både affärsutveckling och teknikutveckling. Med mer än 20 års erfarenhet, både som konsulter och som e-handlare och
+								anställda på e-handelsplattformar, förstår vi kundbehoven och kan tillföra en spetskompetens som gör stor skillnad för våra
+								kunder. För oss är ständigt lärande viktigt och vi ser oss själva som upptäcktsresande med målet att skapa ett stort värde för
+								våra kunder.
 							</p>
 							<p>
-								Med Rove vill vi skapa ett bolag med hög ambition som prioriterar ständigt lärande. Vi vill hela tiden bli bättre med syfte att
-								ge våra kunder ett större värde. Vi vill också skapa ett omtänktsamt bolag, vi ska ta hand om varandra och våra kunder. Därför
-								bygger vi bolaget utifrån våra tre värderingar: Lärande, Omtanke och Ambition.
+								Rove betyder &quot;​a vigorous and purposeful journey without ever reaching your destination&quot;. En kraftfull och målmedveten
+								upptäcksresa som aldrig tar slut.
+							</p>
+							<p>
+								Med Rove vill vi skapa ett bolag med hög ambition att hela tiden bli bättre. Vi vill också skapa ett omtänktsamt bolag, vi ska
+								ta hand om varandra och våra kunder. Därför bygger vi bolaget utifrån våra tre värderingar: Lärande, Omtanke och Ambition.
 							</p>
 							<h3>Djup kunskap inom digital handel</h3>
 							<p>
