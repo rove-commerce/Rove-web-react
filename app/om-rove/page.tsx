@@ -33,9 +33,7 @@ export default function Home() {
 							<p>
 								Rove är ett nystartat konsultföretag specialiserat på e-handel. Vi hjälper våra kunder att bli framgångsrika i sin digitala
 								affär genom både affärsutveckling och teknikutveckling. Med mer än 20 års erfarenhet, både som konsulter och som e-handlare och
-								anställda på e-handelsplattformar, förstår vi kundbehoven och kan tillföra en spetskompetens som gör stor skillnad för våra
-								kunder. För oss är ständigt lärande viktigt och vi ser oss själva som upptäcktsresande med målet att skapa ett stort värde för
-								våra kunder.
+								anställda på e-handelsplattformar, förstår vi kundbehoven och kan tillföra en spetskompetens som gör skillnad för våra kunder.
 							</p>
 							<p>
 								För att lyckas tror vi att ständigt lärande är viktigt. Det är en resa som aldrig tar slut. Ordet Rove betyder just &quot;​a
