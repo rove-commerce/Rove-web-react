@@ -20,7 +20,7 @@ export default function Top3USP() {
 								</p>
 							</div>
 						</div>
-						<div className="flex items-start bg-blue p-8 m-6 h-auto laptop:max-h-60 w-auto laptop:w-2/5">
+						<div className="flex items-start bg-blue p-8 m-6 h-auto laptop:h-auto w-auto laptop:w-2/5">
 							<div>
 								<span className="text-white text-18 font-medium">Långsiktiga relationer</span>
 								<p className="text-white text-14 mb-2 mt-2 pr-4">
@@ -29,7 +29,7 @@ export default function Top3USP() {
 								</p>
 							</div>
 						</div>
-						<div className="flex items-start bg-blue p-8 m-6 h-auto laptop:max-h-52 w-auto laptop:w-2/5">
+						<div className="flex items-start bg-blue p-8 m-6 h-auto laptop:max-h-60 w-auto laptop:w-2/5">
 							<div>
 								<span className="text-white text-18 font-medium">Vi kan e-handel</span>
 								<p className="text-white text-14 mb-2 mt-2 pr-4">
