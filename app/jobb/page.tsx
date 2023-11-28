@@ -24,9 +24,6 @@ export default function Home() {
 							<h3>Bli en del av vårt team, just nu söker vi</h3>
 						</div>
 						<div className="inline-flex mt-8 flex-col laptop:flex-row">
-							<Link href="/jobb/tech-lead/" className="btn-blue inline-block font-medium">
-								Tech Lead
-							</Link>
 							<Link href="/jobb/litium-utvecklare/" className="btn-blue inline-block font-medium mt-4 laptop:mt-0 laptop:ml-4">
 								Litium-utvecklare
 							</Link>
