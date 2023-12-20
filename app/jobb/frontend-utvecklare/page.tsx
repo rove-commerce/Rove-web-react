@@ -15,7 +15,7 @@ export default function Home() {
 					<div className="inner-wrapper">
 						<div className="wysiwyg" style={{ maxWidth: "687px" }}>
 							<p>
-								Nu startar vi Rove! Rove är ett nytt kunskapsföretag som med inspiration och utvecklade metoder hjälper företag att bli
+								Nu har vi startat Rove! Rove är ett nytt kunskapsföretag som med inspiration och utvecklade metoder hjälper företag att bli
 								framgångsrika i sin e-handel och digitala marknadsföring. Vi erbjuder både konsulttjänster och egenutvecklade produkter.
 							</p>
 							<p>
@@ -37,7 +37,7 @@ export default function Home() {
 							</p>
 							<h3>Vi ser gärna att du</h3>
 							<ul>
-								<li>Är en erfaren frontend-utvecklare väl bekant med JavaScript, React och relaterade teknologier</li>
+								<li>Har minst 3 års arbetslivserfarenhet som frontend-utvecklare och är väl bekant med JavaScript, React, TypeScript, next.js och relaterade teknologier</li>
 								<li>Har en känsla för design, UX och användbarhet</li>
 								<li>Du vill alltid lära och utvecklas och tycker om att utforska ny teknik</li>
 								<li>Uttrycker dig väl i tal och skrift på svenska och engelska</li>
@@ -48,7 +48,7 @@ export default function Home() {
 							<ul>
 								<li>Erfarenhet från e-handel</li>
 								<li>Erfarenhet av att arbete med Litiums e-handelsplattform</li>
-								<li>Erfarenhet av next.js, TypeScript, Tailwind CSS och Foundation by Zurb</li>
+								<li>Erfarenhet av Tailwind CSS, ASP.NET MVC, och Foundation by Zurb</li>
 								<li>Grundläggande kunskap om SEO och SEM</li>
 							</ul>
 							<p>
