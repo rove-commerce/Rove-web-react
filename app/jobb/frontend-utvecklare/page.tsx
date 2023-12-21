@@ -48,7 +48,7 @@ export default function Home() {
 							<ul>
 								<li>Erfarenhet från e-handel</li>
 								<li>Erfarenhet av att arbete med Litiums e-handelsplattform</li>
-								<li>Erfarenhet av Tailwind CSS, ASP.NET MVC, och Foundation by Zurb</li>
+								<li>Erfarenhet av Tailwind CSS, ASP.NET MVC och Foundation by Zurb</li>
 								<li>Grundläggande kunskap om SEO och SEM</li>
 							</ul>
 							<p>

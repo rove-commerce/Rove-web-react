@@ -89,7 +89,7 @@ export default function MainNavigation() {
 									<Link onClick={mobileMenuClick} className="mr-1" href="/jobb">
 										Jobb
 									</Link>
-									<span className="inline-block bg-red text-xs text-white mb-5 px-1 rounded-full tracking-wide">3</span>
+									<span className="inline-block bg-red text-xs text-white mb-5 px-1 rounded-full tracking-wide">2</span>
 								</li>
 							</ul>
 						</div>
