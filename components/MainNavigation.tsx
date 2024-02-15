@@ -43,7 +43,7 @@ export default function MainNavigation() {
 							<Link href="/jobb" className={currentPath?.includes("/jobb") ? "text-pink font-semibold mr-1" : "hover:underline mr-1"}>
 								Jobb
 							</Link>
-							<span className="inline-block bg-red text-xs text-white mb-2 px-1 rounded-full tracking-wide">4</span>
+							<span className="inline-block bg-red text-xs text-white mb-2 px-1 rounded-full tracking-wide">2</span>
 						</li>
 					</ul>
 				</nav>

@@ -31,12 +31,6 @@ export default function Home() {
 						<p>
 							<ReadLink href="/jobb/projektledare/" title="Projektledare/Verksamhetsksonsult" />
 						</p>
-						<p>
-							<ReadLink href="/jobb/litium-utvecklare/" title="Litium-utvecklare" />
-						</p>
-						<p>
-							<ReadLink href="/jobb/frontend-utvecklare/" title="Frontend-utvecklare" />
-						</p>
 					</div>
 				</div>
 			</div>

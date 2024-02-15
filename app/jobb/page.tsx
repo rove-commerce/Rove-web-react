@@ -36,18 +36,6 @@ export default function Home() {
               >
                 Projektledare / Verksamhetsksonsult
               </Link>
-              <Link
-                href="/jobb/litium-utvecklare/"
-                className="btn-blue inline-block font-medium mt-4 laptop:mt-0 laptop:ml-4"
-              >
-                Litium-utvecklare
-              </Link>
-              <Link
-                href="jobb/frontend-utvecklare/"
-                className="btn-blue inline-block font-medium mt-4 laptop:mt-0 laptop:ml-4"
-              >
-                Frontend-utvecklare
-              </Link>
             </div>
           </div>
         </div>
