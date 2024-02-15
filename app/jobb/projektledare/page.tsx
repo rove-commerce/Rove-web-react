@@ -16,14 +16,20 @@ export default function Home() {
           <div className="inner-wrapper">
             <div className="wysiwyg" style={{ maxWidth: "687px" }}>
               <p>
-                Vi är ett nystartat och framgångsrikt konsultbolag beläget i
-                hjärtat av Södermalm, nära Slussen, specialiserade på att
-                erbjuda skräddarsydda e-handelslösningar. I takt med att vi
-                växer söker vi nu en erfaren Projektledare/Verksamhetsutvecklare
-                som brinner för att leda projekt, utveckla affärer och skapa
-                värde för våra kunder. Med våra kärnvärden Lärande, Omtanke och
-                Ambition, strävar vi efter att skapa en miljö där innovation och
-                teamarbete blomstrar.
+                Vi är ett nystartat konsultbolag med kontor vid Slussen i
+                Stokcholm, specialiserade på att erbjuda skräddarsydda
+                e-handelslösningar. I takt med att vi växer söker vi nu en
+                erfaren Projektledare/Verksamhetsutvecklare som brinner för att
+                leda projekt, utveckla affärer och skapa värde för våra kunder.
+              </p>
+              <p>
+                Fundamentet i Rove utgörs av en lärande, omtänksam och ambitiös
+                företagskultur - det är våra viktigaste värden som vi bygger
+                företaget på. Vi vill ha en kultur av tillit med stort eget
+                ansvar där vi inte detaljstyr varandra, med tydliga mål och
+                mandat som uppmanar till egna initiativ och bra beslut. Vi vill
+                ha rak kommunikation med positiv feedback för att hjälpa
+                varandra att utvecklas.
               </p>
               <p>
                 Ta chansen att komma in tidigt i ett bolag med stora visioner!
@@ -93,9 +99,11 @@ export default function Home() {
               </p>
               <h3>Placering</h3>
               <p>
-                Är du redo att ta nästa steg i din karriär och leda spännande
-                e-handelsprojekt? Kontakta oss idag för att boka en lunch och
-                diskutera dina möjligheter hos oss!
+                Vårt kontor ligger i moderna lokaler vid Slussen i Stockholm,
+                med flexibilitet för distansarbete. Är du redo att ta nästa steg
+                i din karriär och leda spännande e-handelsprojekt? Kontakta oss
+                idag för att boka en lunch och diskutera dina möjligheter hos
+                oss!
               </p>
               <p>Varmt välkommen med din ansökan till jobb@rove.se!</p>
             </div>

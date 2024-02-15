@@ -18,14 +18,21 @@ export default function Home() {
               <p>
                 Är du en passionerad Backend-/Fullstackutvecklare med 3-6 års
                 erfarenhet som är redo för nästa steg i din karriär? Vi är ett
-                nystartat och snabbväxande konsultbolag baserat i hjärtat av
-                Södermalm, nära Slussen, som specialiserar oss på att hjälpa
-                våra kunder att maximera sin e-handelspotential. Med fokus på
-                Lärande, Omtanke och Ambition, erbjuder vi en dynamisk
-                arbetsmiljö där teamarbete och nöjda kunder står i centrum.
+                nystartat och snabbväxande konsultbolag med kontor vid Slussen i
+                Stockholm, som specialiserar oss på att hjälpa våra kunder att
+                utveckla sin e-handelspotential.
               </p>
               <p>
-			  Ta chansen att komma in tidigt i ett bolag med stora visioner!
+                Fundamentet i Rove utgörs av en lärande, omtänksam och ambitiös
+                företagskultur - det är våra viktigaste värden som vi bygger
+                företaget på. Vi vill ha en kultur av tillit med stort eget
+                ansvar där vi inte detaljstyr varandra, med tydliga mål och
+                mandat som uppmanar till egna initiativ och bra beslut. Vi vill
+                ha rak kommunikation med positiv feedback för att hjälpa
+                varandra att utvecklas.
+              </p>
+              <p>
+                Ta chansen att komma in tidigt i ett bolag med stora visioner!
               </p>
               <h3>Om rollen</h3>
               <p>
@@ -93,7 +100,7 @@ export default function Home() {
                 e-handelslösningar? Kontakta oss idag för att boka in en lunch
                 och diskutera hur du kan bli en del av vårt team!
               </p>
-			  <p>Varmt välkommen med din ansökan till jobb@rove.se!</p>
+              <p>Varmt välkommen med din ansökan till jobb@rove.se!</p>
             </div>
           </div>
         </div>
