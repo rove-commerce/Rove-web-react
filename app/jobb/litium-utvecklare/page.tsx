@@ -52,8 +52,7 @@ export default function Home() {
 								<li>Erfarenhet av att bygga integrationer </li>
 							</ul>
 							<p>
-								Vi sitter i moderna coworking-lokaler centralt i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb _at_
-								rove.se!
+								Vi sitter i moderna lokaler vid Slussen i Stockholm eller jobbar hemifrån. Varmt välkommen med din ansökan till jobb@rove.se!
 							</p>
 						</div>
 					</div>
