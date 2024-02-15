@@ -17,7 +17,7 @@ export default function Home() {
             <div className="wysiwyg" style={{ maxWidth: "687px" }}>
               <p>
                 Vi är ett nystartat konsultbolag med kontor vid Slussen i
-                Stokcholm, specialiserade på att erbjuda skräddarsydda
+                Stockholm, specialiserade på att erbjuda skräddarsydda
                 e-handelslösningar. I takt med att vi växer söker vi nu en
                 erfaren Projektledare/Verksamhetsutvecklare som brinner för att
                 leda projekt, utveckla affärer och skapa värde för våra kunder.
